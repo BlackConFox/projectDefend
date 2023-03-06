@@ -1,0 +1,110 @@
+.gridcontainer{
+  font-family: 'Arial', sans-serif;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 65px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.gridcontainer #tittext {
+  position: fixed;
+  transform:rotate(-90deg);
+  margin-right: 10%;
+  width: max-content; 
+  color:  rgb(95, 5, 95);
+  font-size: 1.1em;
+}
+
+.gridcontainer #tittex {
+  position: fixed;
+  transform:rotate(-90deg);
+  margin-left: 10%;
+  width: max-content;
+  color: rgb(255, 255, 255);
+  font-size: 1.9em;
+}
+
+.gridcontainer #sidep{
+  position: absolute;
+  transform:rotate(-90deg);
+  width: max-content;
+  color: darkmagenta;
+  right: -15%;
+  bottom: 23%;
+  font-size: 0.41em;
+}
+.gridcontainer #pLor{
+  position: fixed;
+  width: 45%;
+  color: darkmagenta;
+  font-size: 0.3em;
+  margin-right: 3%;
+  bottom: 10%;
+}
+
+#cityadd {
+  position: absolute;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  height: 9em;
+  width: 9em;
+  clip-path: polygon(100% -10000%, 50px 0%, 0% 50px, 0% 100%, 50% 100%);
+}
+
+#linkSite{
+position: fixed;
+right: 0%;
+margin-bottom: 30%;
+transform:rotate(-90deg);
+color: darkmagenta;
+font-size: 0.3em;
+}
+#squarecorners{
+position: absolute;
+height: 1em;
+width: 1em;
+bottom: 7%;
+left: 7%;
+}
+#squaresq{
+position: absolute;
+right: 5%;
+top: 5%;
+height: 1em;
+width: 1em;
+filter: invert(100%);
+}
+#dash{
+position: absolute;
+top: -7%;
+margin-right: 15%;
+height: 3.9em;
+width: 3em;
+}
+#node{ 
+position: fixed;
+top: 3%;
+left: 5%;
+height: calc(428px / 5);
+width: calc(700px / 5);
+}
+
+.column2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 3px solid black;
+  background-color: rgb(216, 213, 213);
+}
+.column1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid black;
+  background-color: darkmagenta;
+}

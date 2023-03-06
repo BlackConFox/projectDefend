@@ -1,0 +1,84 @@
+.gradient {
+  font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, darkmagenta 27%,rgb(216, 213, 213));
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  }
+
+  .gradient #tittext {
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+    font-size: 1em;
+  }
+
+  .gradient #tittex {
+    color: black;
+    margin-top: -5%;
+    font-size: 1.5em;
+  }
+  
+  .gradient #underH{
+    font-size: 0.5em;
+    margin-top: -7%;
+  }
+  .gradient p{
+    font-size: 0.2em;
+    margin-top: 1%;
+  }
+  #cityTT {
+    height: 5em;
+    width: 9em;
+    clip-path: polygon(0% 0%, calc(100% - 50px) 0%, 100% 50px, 100% 100%, 0% 100%);
+  }
+  
+#linkSite{
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  color: white;
+  font-size: 0.3em;
+}
+#squarecorners{
+  position: absolute;
+  margin-top: 3%;
+  height: 1em;
+  width: 1em;
+}
+#squaresq{
+  position: relative;
+  left: -40%;
+  top: 3%;
+  height: 1em;
+  width: 1em;
+}
+#dash{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 85%;
+  bottom: 30%;
+  height: 3.9em;
+  width: 3em;
+}
+#logosoc{
+  position: inherit;
+  left: 8%;
+  top: 5%;
+  height: calc(512px / 10);
+  width: calc(2656px / 10);
+}
+#node{
+  position: relative;
+   left: 40%;
+  top: -5%;
+  height: calc(428px / 5);
+width: calc(700px / 5);
+}

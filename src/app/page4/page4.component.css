@@ -1,0 +1,105 @@
+.gradient {
+  font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(216, 213, 213);
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  }
+
+  .gradient #tittext {
+    position: absolute;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+  }
+
+  .gradient #tittex {
+    margin-bottom: 5%;
+    color: black;
+    font-size: 1.5em;
+  }
+  
+  .gradient #underH{
+    position: absolute;
+    bottom: 2%;
+    font-size: 0.5em;
+  }
+  .gradient p{
+    font-size: 0.2em;
+    margin-top: 1%;
+  }
+  #cityTT {
+    margin-top: 5%;
+    height: 5em;
+    width: 9em;
+    clip-path: polygon(0% 0%, calc(100% - 50px) 0%, 100% 50px, 100% 100%, 0% 100%);
+  }
+  
+#linkSite{
+  position: absolute;
+  bottom: 15%;
+  right: 18%;
+  color: darkmagenta;
+  font-size: 0.3em;
+}
+#squarecorners{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  height: 1em;
+  width: 1em;
+}
+#squaresq{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  height: 1em;
+  width: 1em;
+}
+#dash{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 75%;
+  bottom: 65%;
+  height: 3.9em;
+  width: 3em;
+}
+#dash1{
+  position: absolute;
+  transform: rotate(90deg);
+  left: -5%;
+  bottom: 35%;
+  height: 3.9em;
+  width: 3em;
+  }
+#logosoc{
+  position: absolute;
+  bottom: 20%;
+  right: 13%;
+  height: calc(512px / 10);
+  width: calc(2656px / 10);
+}
+#node{
+  position: absolute;
+  bottom: 45%;
+  right: 20%;
+  height: calc(428px / 5);
+  width: calc(700px / 5);
+}
+.massText{
+  position:absolute;
+  bottom: 20%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
